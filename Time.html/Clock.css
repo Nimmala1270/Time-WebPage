@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.box {
+    height: 350px;
+    width: 650px;
+    border: 5px solid rgb(231, 196, 131);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-pathway-with-neon-light-circle-reflecting_117023-1670.jpg?ga=GA1.1.382385889.1727438085&semt=ais_hybrid&w=740');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    transition: border-color 0.5s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box:hover{
+    transition: border-color 0.5s ease-in-out;
+    border-color: rgb(231, 196, 131);
+    color: rgb(170, 113, 44);
+    border: 5px solid rgb(228, 194, 3);
+    text-transform: inherit;
+}
+
+.time {
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#ampm {
+    font-size: 40px;
+    margin-left: 15px;
+}
